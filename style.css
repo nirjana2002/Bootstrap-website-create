@@ -1,0 +1,255 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+.section-padding{
+    padding: 100px 0;
+}
+.line{
+    width: 200px;
+    background: #cb7b1b;
+    height: 5px;
+    margin: 10px 0 25px ;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+header{
+    background: #fff;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: 900;
+    border: 2px solid #8f3862;
+    padding: 0 15px;
+}
+.nav-link{
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.banner{
+    position: relative;
+    background: url(banner.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    padding: 250px 0 200px ;
+}
+
+.effect h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 700;
+    animation: animate 3s steps(19) infinite alternate;
+    -webkit-animation: animate 3s steps(19) infinite alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+@keyframes animate{
+    from{
+        width: 0;
+    }
+    to{
+        width: 580px;
+    }
+}
+
+.banner p{
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #262626;
+}
+.banner a{
+    display: inline-block;
+    background: #8f3862;
+    color: #fff;
+    padding: 10px 25px;
+    margin-top: 30px;
+}
+
+.about-content{
+    padding-top: 30px;
+}
+.about-content h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.about-content p{
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+.about-content a{
+    background: #8f3862;
+    color: white;
+    
+    display: inline-block;
+    padding: 10px 25px;
+}
+.stat{
+    text-align: center;
+    background: #8f3862;
+    color: #fff;
+}
+.stat i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.stat h2{
+    font-size: 40px;
+
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-header .line{
+    margin: 15px auto;
+
+}
+.images{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap; 
+
+}
+.images img{
+    width: 320px;
+    height: 300px;
+    margin: 10px;
+}
+
+
+   
+    
+   
+
+
+.portfolio img:hover{
+    transition: all .9s;
+    opacity: .5;
+    -webkit-transition: all .9s;
+    -moz-transition: all .9s;
+    -ms-transition: all .9s;
+    -o-transition: all .9s;
+}
+.quotes{
+    text-align: center;
+    background: #8f3862;
+    color: #fff;
+}
+.quotes .btn-primary{
+    background: #fff;
+    color: #262626;
+}
+
+.single-services{
+    padding: 40px 20px;
+    margin: 0 15px 15px;
+    text-align: center;
+}
+
+.service-icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+
+.service-icon i{
+    font-size: 35px;
+    color: #222;
+}
+
+.single-services:hover i{
+    transform: scale(1.4) rotate(360deg);
+    -webkit-transform: scale(1.4) rotate(360deg);
+    -moz-transform: scale(1.4) rotate(360deg);
+    -ms-transform: scale(1.4) rotate(360deg);
+    -o-transform: scale(1.4) rotate(360deg);
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+    color: #8f3862;
+}
+
+.single-services h2{
+    line-height: 1.9;
+    dz: 25px;
+    font-weight: 700;
+
+}
+.single-services:hover h2{
+    color: #8f3862;
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+}
+
+.single-contact{
+    padding: 10%;
+    text-align: center;
+}
+.contact-icon{
+    width: 40px;
+    height: 40px;
+    margin: 15px auto;
+}
+
+.contact-icon{
+    color: #8f3862;
+    font-size: 35px;
+}
+.contact .btn-primary{
+    color: #fff;
+    background: #8f3862;
+    border-color: #8f3862;
+}
+
+footer{
+    background:#8f3862;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 5px ;
+}
+.form-area{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
